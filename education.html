@@ -1,0 +1,85 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('eduback.jpg') no-repeat center center fixed;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .education-details {
+            text-align: center;
+        }
+        .education-details h2 {
+            color: #333;
+        }
+        .education-item {
+            display: inline-block;
+            margin: 0 20px;
+            vertical-align: top;
+        }
+        .college-image {
+            width: 300px; /* Adjust image size as needed */
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .score {
+            color: Black;
+        }
+	.back-to-home {
+            text-align: center;
+        }
+        .back-to-home button {
+            padding: 10px 20px;
+            background-color: lemonchiffon;
+            color: #Black;
+            border: 10%;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="education-details">
+        <h1>EDUCATION DETAILS</h1>
+
+        <!-- SSC details -->
+        <div class="education-item">
+            <h2>SSC DETAILS</h2>
+            <img src="school.jpg" alt="SSC College Image" class="college-image">
+            <h2 class="score">Score: 10</h2>
+        </div>
+
+        <!-- Intermediate details -->
+        <div class="education-item">
+            <h2>INTERMEDIATE DETAILS </h2>
+            <img src="collegee.jpg" alt="Intermediate College Image" class="college-image">
+            <h2 class="score">Score: 914</h2>
+        </div>
+
+        <!-- BTech details -->
+        <div class="education-item">
+            <h2>BTECH DETAILS</h2>
+            <img src="btech.jpg" alt="BTech College Image" class="college-image">
+            <h2 class="score">Score: 8.55(Till 2-2)</h2>
+        </div>
+	<div class="back-to-home">
+            <button onclick="window.location.href='index.html'">Back to Home</button>
+        </div>
+
+    </div>
+</body>
+</html>
